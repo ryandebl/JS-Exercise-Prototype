@@ -114,10 +114,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window/Global - when this is used without naming anything after it it will default to window
+  2. Implicit Binding - dot notation is used to invoke a function like bill.mother.sayName(); will find mother and use the mother part not bill
+  3. new binding - using a constructor 
+  4. explicit binding - uses things like .call/bind/apply to refer to other functions as the one we're invoking. 
 */
 
 
